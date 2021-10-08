@@ -34,7 +34,8 @@ let features = [
 // Create your WhatsNewViewController
 let vc = WhatsNewViewController .create(withFeatures: features, delegate: self)
 
-// Customize it
+// Customize it:
+// Color
 vc.mainColor = .systemPink
         
 // Title
@@ -74,9 +75,6 @@ func whatsNewViewController(_ whatsNewViewController: WhatsNewViewController, di
 Here are few screenshots (with random texts!) of the app:
 
 ![Simulator Screen Shot - iPhone 12 - 2021-10-08 at 17 16 13](https://user-images.githubusercontent.com/1695222/136581708-8d322a98-5256-4957-929f-b09555f7025c.png)
-![Simulator Screen Shot - iPhone 12 - 2021-10-08 at 17 17 02](https://user-images.githubusercontent.com/1695222/136581884-91c3c782-b582-4a6e-aa4d-9d8d32bd4c0f.png)
-
-![Simulator Screen Shot - iPhone 12 - 2021-10-08 at 17 26 01](https://user-images.githubusercontent.com/1695222/136583280-c2382023-cbc2-4761-bc60-8737db20488d.png)
 ![Simulator Screen Shot - iPhone 12 - 2021-10-08 at 17 26 07](https://user-images.githubusercontent.com/1695222/136583292-cd7ab474-70cd-4dba-a5b5-64c7782059e2.png)
 
 ![Simulator Screen Shot - iPhone 12 - 2021-10-08 at 17 28 30](https://user-images.githubusercontent.com/1695222/136583613-420809eb-0694-433f-b996-e13fce3cd735.png)

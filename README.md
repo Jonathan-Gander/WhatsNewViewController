@@ -84,7 +84,7 @@ Here are few screenshots (with random texts!) of the app:
 
 ## Licence
 
-Be free to use this `WhatsNewViewController` in your app. Licence is available [here](https://github.com/Jonathan-Gander/WhatsNewExample/blob/main/LICENSE). Please only add a copyright and licence notice.
+Be free to use this `WhatsNewViewController` in your app. Licence is available [here](https://github.com/Jonathan-Gander/WhatsNewViewController/blob/main/LICENSE). Please only add a copyright and licence notice.
 
 Please also see [WhatsNew](https://github.com/illescasDaniel/WhatsNew) from developer Daniel Illescas Romero. I've built my own implementation but first idea was based on his work.
 

@@ -58,7 +58,7 @@ class ViewController: UIViewController, WhatsNewViewControllerDelegate {
         vc.mainColor = colors.randomElement()!
         
         // Title
-        vc.titleText = ["What's New", "What's New in the my app", "Always better", "New features available", "Bug fixed"].randomElement()!
+        vc.titleText = ["What's New", "What's New in my app", "Always better", "New features available", "Bug fixed"].randomElement()!
         
         // Subtitle
         vc.subtitleText = ["In version 1.0.10", "You will love it!", "and it is still for free!"].randomElement()!

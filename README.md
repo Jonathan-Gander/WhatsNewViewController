@@ -74,8 +74,8 @@ func whatsNewViewController(_ whatsNewViewController: WhatsNewViewController, di
 
 Here are few screenshots (with random texts!) of the app:
 
-![Simulator Screen Shot - iPhone 12 - 2021-10-08 at 17 16 13](https://user-images.githubusercontent.com/1695222/136581708-8d322a98-5256-4957-929f-b09555f7025c.png)
-![Simulator Screen Shot - iPhone 12 - 2021-10-08 at 17 26 07](https://user-images.githubusercontent.com/1695222/136583292-cd7ab474-70cd-4dba-a5b5-64c7782059e2.png)
+![Simulator Screen Shot - iPhone 12 - 2021-10-09 at 09 16 36](https://user-images.githubusercontent.com/1695222/136648400-68cb00cc-c3c6-4263-a232-640c9a2f2693.png)
+![Simulator Screen Shot - iPhone 12 - 2021-10-09 at 09 17 13](https://user-images.githubusercontent.com/1695222/136648401-4575e66c-52c5-4a4d-9059-c7ed9786a305.png)
 
 ![Simulator Screen Shot - iPhone 12 - 2021-10-08 at 22 24 23](https://user-images.githubusercontent.com/1695222/136620805-494411f6-9014-44cc-a81b-2d699cf8697d.png)
 ![Simulator Screen Shot - iPhone 12 - 2021-10-08 at 22 25 21](https://user-images.githubusercontent.com/1695222/136620892-591204db-9903-4770-b937-7200a710ef23.png)

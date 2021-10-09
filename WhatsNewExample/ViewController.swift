@@ -32,13 +32,13 @@ class ViewController: UIViewController, WhatsNewViewControllerDelegate {
             WhatsNewFeature(title: "Smarter than expected", text: "App can now set an alarm for you according to weather conditions.", image: UIImage(systemName: "alarm")),
             WhatsNewFeature(title: "Bugs fix", text: "Fix a lot of minor issues. Also add UI improvement in several views.", image: UIImage(systemName: "ant")),
             WhatsNewFeature(title: "Add your location", text: "Add your location on map and send it to your friends in one tap.", image: UIImage(systemName: "mappin.and.ellipse")),
-            WhatsNewFeature(title: "Sort your files", text: "You can now sort your files by name, size, number of words or date.", image: UIImage(systemName: "arrow.up.arrow.down.square")),
-            WhatsNewFeature(title: "Never miss the train", text: "We will alert you when your train is arriving so you don't have to move your eyes from your phone.", image: UIImage(systemName: "tram")),
-            WhatsNewFeature(title: "More security", text: "All your messages are now signed so your contacts always know it is you.", image: UIImage(systemName: "signature")),
-            WhatsNewFeature(title: "More search results", text: "We have added hotels and B&B in our search results.", image: UIImage(systemName: "bed.double")),
-            WhatsNewFeature(title: "Everybody is a king", text: "Premium account are all deleted. All features are free for everybody!", image: UIImage(systemName: "crown")),
+            WhatsNewFeature(title: "Sort your files", text: "You can now sort your files by name, size, number of words, or date.", image: UIImage(systemName: "arrow.up.arrow.down.square")),
+            WhatsNewFeature(title: "Never miss your train", text: "We will alert you when your train is arriving so you don't have to move your eyes from your phone.", image: UIImage(systemName: "tram")),
+            WhatsNewFeature(title: "More security", text: "All your messages are now signed so your contacts always know it's you.", image: UIImage(systemName: "signature")),
+            WhatsNewFeature(title: "More search results", text: "We have added hotels and B&Bs in our search results.", image: UIImage(systemName: "bed.double")),
+            WhatsNewFeature(title: "Everybody is premium", text: "Premium accounts are all removed. All features are free for everybody!", image: UIImage(systemName: "crown")),
             WhatsNewFeature(title: "Developers at work", text: "We are still working on reported issues.", image: UIImage(systemName: "screwdriver")),
-            WhatsNewFeature(title: "Want to go hiking?", text: "Download my app GPX viewer from the App Store!", image: UIImage(systemName: "map")),
+            WhatsNewFeature(title: "Want to go hiking?", text: "Download my app GPX viewer from the App Store.", image: UIImage(systemName: "map")),
         ]
         
         var features = [WhatsNewFeature]()

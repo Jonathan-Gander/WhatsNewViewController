@@ -80,6 +80,25 @@ Here are few screenshots (with random texts!) of the app:
 ![Simulator Screen Shot - iPhone 12 - 2021-10-09 at 09 54 21](https://user-images.githubusercontent.com/1695222/136649607-463c2549-7d6c-4440-be15-44b63dfd83c8.png)
 ![Simulator Screen Shot - iPhone 12 - 2021-10-09 at 09 55 37](https://user-images.githubusercontent.com/1695222/136649647-b7588b5c-88d2-419e-a20f-f986d1508464.png)
 
+## Use with Objective-C code
+
+`WhatsNewViewController` and its protocol, struct and class are built in Swift. If you want to use it with your Objective-C project, it is possible.
+
+Follow next steps:
+
+`WhatsNewViewControllerDelegate` protocol:
+- Add `objc` to protocol and each functions
+- You can also add `optional` to each functions
+
+`WhatsNewFeature` struct:
+- Change it to be a class extending `NSObject`: `@objc class WhatsNewFeature: NSObject`
+- Add `objc` to `init()`
+
+`WhatsNewViewController` class:
+- Add `objc` to `class`
+- Add `objc` to all parameters properties (`mainColor`, `titleText`, etc.)
+- Add `objc` to `create()` static function
+- On each delegate methods calls, add `?`, because each delegated functions could be optional
 
 ## Licence
 

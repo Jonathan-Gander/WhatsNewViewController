@@ -82,6 +82,7 @@ class WhatsNewViewController: UIViewController, UITableViewDelegate, UITableView
         if let continueText = continueText {
             btnContinue.backgroundColor = mainColor
             btnContinue.setTitle(continueText, for: .normal)
+            btnContinue.setTitleColor(.white, for: .normal)
         }
         else {
             btnContinue.isHidden = true

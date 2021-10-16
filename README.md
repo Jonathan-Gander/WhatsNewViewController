@@ -32,7 +32,7 @@ let features = [
 ]
 
 // Create your WhatsNewViewController
-let vc = WhatsNewViewController .create(withFeatures: features, delegate: self)
+let vc = WhatsNewViewController.create(withFeatures: features, delegate: self)
 
 // Customize it:
 // Color

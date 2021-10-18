@@ -70,7 +70,7 @@ func whatsNewViewController(_ whatsNewViewController: WhatsNewViewController, di
 }
 ```
 
-## Screeshots
+## Screenshots
 
 Here are few screenshots (with random texts!) of the app:
 

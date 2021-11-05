@@ -69,6 +69,8 @@ class ViewController: UIViewController, WhatsNewViewControllerDelegate {
         // More info button (note: You can also set it to nil to hide it)
         vc.moreInfoText = ["More info...", "Learn more...", "More about privacy...", "See complete features...", "About..."].randomElement()!
         
+        // Allow user to copy cells
+        //vc.allowCopy = true
         
         // *** Display WhatsNewViewController
         self.present(vc, animated: true, completion: nil)

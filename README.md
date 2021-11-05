@@ -50,6 +50,9 @@ vc.continueText = "Continue"
 // More info button (note: You can also set it to nil to hide it)
 vc.moreInfoText = "More info"
 
+// Allow user to copy cells (default is false)
+//vc.allowCopy = true
+
 // Display it as a UIViewController
 self.present(vc, animated: true, completion: nil)
 ```

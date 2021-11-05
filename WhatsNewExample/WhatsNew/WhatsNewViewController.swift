@@ -42,6 +42,7 @@ class WhatsNewViewController: UIViewController, UITableViewDelegate, UITableView
     var subtitleText: String = "In this version"
     var continueText: String? = "Continue" // Set to nil to hide this button
     var moreInfoText: String? = "More info" // Set to nil to hide this button
+    var allowCopy: Bool = false // Set to true to let user copy feature cells
     
     private var delegate: WhatsNewViewControllerDelegate?
     private var features: [WhatsNewFeature] = [WhatsNewFeature]()
@@ -165,6 +166,26 @@ class WhatsNewViewController: UIViewController, UITableViewDelegate, UITableView
         
         let index = indexPath.row - 1
         delegate?.whatsNewViewController(self, didTapFeature: features[index], atIndex: index)
+    }
+    
+    func tableView(_ tableView: UITableView, canPerformAction action: Selector, forRowAt indexPath: IndexPath, withSender sender: Any?) -> Bool {
+        return action.description == "copy:"
+    }
+
+    func tableView(_ tableView: UITableView, performAction action: Selector, forRowAt indexPath: IndexPath, withSender sender: Any?) {
+        if (action.description == "copy:") {
+            
+            guard indexPath.row > 0 else { return }
+            
+            let feature = features[indexPath.row - 1]
+            
+            let pasteBoard = UIPasteboard.general
+            pasteBoard.string = "\(feature.title)\n\(feature.text)"
+        }
+    }
+
+    func tableView(_ tableView: UITableView, shouldShowMenuForRowAt indexPath: IndexPath) -> Bool {
+        return allowCopy && indexPath.row > 0
     }
     
     // MARK: - Orientation

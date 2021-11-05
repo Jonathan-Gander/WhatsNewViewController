@@ -24,7 +24,7 @@ Simply take files in `WhatsNew` folder and add them to your project.
 
 ```swift
 // Create your features (array of WhatsNewFeature)
-// You can change title, subtitle and image for each feature.
+// You can change title, text and image for each feature.
 let features = [
     WhatsNewFeature(title: "First amazing feature", text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam accumsan pretium arcu, sit amet porta lectus ultrices sed.", image: UIImage(systemName: "paintbrush")),
     WhatsNewFeature(title: "Second feature", text: "Sed lacinia tortor nunc, at eleifend mi porta eu.", image: UIImage(systemName: "globe.europe.africa.fill")),
@@ -32,7 +32,7 @@ let features = [
 ]
 
 // Create your WhatsNewViewController
-let vc = WhatsNewViewController .create(withFeatures: features, delegate: self)
+let vc = WhatsNewViewController.create(withFeatures: features, delegate: self)
 
 // Customize it:
 // Color
@@ -73,7 +73,7 @@ func whatsNewViewController(_ whatsNewViewController: WhatsNewViewController, di
 }
 ```
 
-## Screeshots
+## Screenshots
 
 Here are few screenshots (with random texts!) of the app:
 
@@ -90,18 +90,26 @@ Here are few screenshots (with random texts!) of the app:
 Follow next steps:
 
 `WhatsNewViewControllerDelegate` protocol:
-- Add `objc` to protocol and each functions
+- Add `@objc` to protocol and each functions
 - You can also add `optional` to each functions
 
 `WhatsNewFeature` struct:
 - Change it to be a class extending `NSObject`: `@objc class WhatsNewFeature: NSObject`
-- Add `objc` to `init()`
+- Add `@objc` to `init()`
 
 `WhatsNewViewController` class:
-- Add `objc` to `class`
-- Add `objc` to all parameters properties (`mainColor`, `titleText`, etc.)
-- Add `objc` to `create()` static function
+- Add `@objc` to `class`
+- Add `@objc` to all parameters properties (`mainColor`, `titleText`, etc.)
+- Add `@objc` to `create()` static function
 - On each delegate methods calls, add `?`, because each delegated functions could be optional
+
+## They're already using it
+
+Following apps are already using `WhatsNewViewController`:
+
+- [GPX viewer](https://apps.apple.com/ch/app/gpx-viewer/id1511582047)
+
+If you use it in your app, please let me know and I will add your link here. You can [contact me here](https://contact.gander.family?locale=en).
 
 ## Licence
 

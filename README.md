@@ -100,6 +100,14 @@ Follow next steps:
 - Add `@objc` to `create()` static function
 - On each delegate methods calls, add `?`, because each delegated functions could be optional
 
+## They're already using it
+
+Following apps are already using `WhatsNewViewController`:
+
+- [GPX viewer](https://apps.apple.com/ch/app/gpx-viewer/id1511582047)
+
+If you use it in your app, please let me know and I will add your link here. You can [contact me here](https://contact.gander.family?locale=en).
+
 ## Licence
 
 Be free to use this `WhatsNewViewController` in your app. Licence is available [here](https://github.com/Jonathan-Gander/WhatsNewViewController/blob/main/LICENSE). Please only add a copyright and licence notice.

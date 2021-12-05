@@ -6,9 +6,9 @@ This project is an example/demo app for this `WhatsNewViewController`. It is bui
 
 This app only provides a button to display `WhatsNewViewController` with random settings. And a text label to display delegate methods results.
 
-## SwiftUI support
+## 🆕 SwiftUI support
 
-If you're using SwiftUI in your project, have a look on [Jonathan-Gander/WhatsNewView](https://github.com/Jonathan-Gander/WhatsNewView)!
+If you're using SwiftUI in your project, have a look on [Jonathan-Gander/WhatsNewView](https://github.com/Jonathan-Gander/WhatsNewView).
 
 ## Features
 
